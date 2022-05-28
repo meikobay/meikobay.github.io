@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>hello windSeS first blog</title>
+    <url>/2022/05/25/hello-windSeS-first-blog/</url>
+    <content><![CDATA[<p>天气真好，老师在课堂上夸我了。我回到家就把这件事告诉了妈妈，妈妈也夸我了，还奖励我十块钱。我跑到github上搭建了我第一个私人博客。这里有温暖的沙发，有休息的客房，还有电视机。我希望多交一些朋友，好多好多朋友来家里一起娱乐，一起学习，一起笑，一起进步。</p>
+]]></content>
+      <categories>
+        <category>LifeRecord</category>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Anaconda</tag>
+        <tag>Jupyter</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/05/25/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>LifeRecord</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>2022年5月29日进城记</title>
+    <url>/2022/05/29/2022%E5%B9%B45%E6%9C%8829%E6%97%A5%E8%BF%9B%E5%9F%8E%E8%AE%B0/</url>
+    <content><![CDATA[<p>待…</p>
+]]></content>
+      <tags>
+        <tag>日志</tag>
+        <tag>游记</tag>
+      </tags>
+  </entry>
+</search>
