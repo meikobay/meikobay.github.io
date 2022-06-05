@@ -255,9 +255,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-06-05 13:26:59 / 修改时间：23:40:31" itemprop="dateCreated datePublished" datetime="2022-06-05T13:26:59+08:00">2022-06-05</time>
+      <time title="创建时间：2022-06-05 13:26:59" itemprop="dateCreated datePublished" datetime="2022-06-05T13:26:59+08:00">2022-06-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-06-06 00:07:05" itemprop="dateModified" datetime="2022-06-06T00:07:05+08:00">2022-06-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -280,7 +286,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>5.2k</span>
+      <span>5.3k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -299,13 +305,15 @@
     
     <div class="post-body" itemprop="articleBody">
           <blockquote>
-<p>人工智能的参照样本始终没有离开我们人类自身。终身、增量式地学习能力是人类最重要的特点与能力之一。机器人如果能够像人类一样通过学习不断地适应新环境与新任务，便有可能实现通用人工智能。然而，本文要介绍的<strong>增量式学习</strong>原本就是领域老人为了实现类人学习而作的众多尝试之一。</p>
+<p>人工智能的参照样本始终没有离开我们人类自身。终身、增量式地学习能力是人类最重要的特点与能力之一。机器人如果能够像人类一样通过学习不断地适应新环境与新任务，便有可能实现通用人工智能。然而，本文要介绍的<strong>增量式学习</strong>原本就是领域老人为了实现类人学习而作的众多尝试之一。所以啊，莫嫌老人言，老人走在前。</p>
 </blockquote>
 <h2 id="一、基本定义"><a href="#一、基本定义" class="headerlink" title="一、基本定义"></a>一、基本定义</h2><p>抛除了类人学习这么大的帽子，增量式学习有它重要的现实意义：</p>
 <p>1） 在现实世界中，数据一般是以序列的方式被机器人获取的，这些在线获取的数据包含新的知识需要被机器人学习。因此，机器人的学习系统能够从新获取的数据学习到新的知识。</p>
 <p>2）对一个训练好的系统进行修改付出的代价通常低于重新训练一个系统。</p>
 <p>增量式学习的思想可以描述为：每当新增数据时，并不需要重建知识库，而是在原有知识库的基础上，仅仅对由于新数据所带来的新信息对知识库进行增量式更新。这种增量式学习的方式使得机器人更加接近人类。现有的增量式学习框架有很多，各种框架的核心内容是：<strong>研究更有效的评价新数据与已存储知识相似性的方法。</strong></p>
-<p>相似性评价方法决定了觉察新知识与增长知识库的方式，它作为新知识的判定机制是增量式学习的核心部件。下面小节会针对几种常见的增量式学习框架进行介绍，主要包括<strong>自组织增量式学习神经网络</strong>(<a target="_blank" rel="noopener" href="https://cs.nju.edu.cn/rinc/Soinn.html">SOINN</a>)[^1]、<strong>情景记忆马尔可规决策过程</strong>(<a target="_blank" rel="noopener" href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFDLAST2015&filename=1015572048.nh&uniplatform=NZKPT&v=g8C05oKV3JGiAK2N666FSFqzwyd_UkYomE96OV4kHsGr4R8XbWpFZ-aeNg1e3UUS">EM-MDP</a>)[^2]、<strong>增量式分级判别回归树</strong>(<a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/4118285">IHDR</a>)[^3]。</p>
+<p>相似性评价方法决定了觉察新知识与增长知识库的方式，它作为新知识的判定机制是增量式学习的核心部件。下面小节会针对几种常见的增量式学习框架进行介绍，主要包括<strong>自组织增量式学习神经网络</strong>(<a target="_blank" rel="noopener" href="https://cs.nju.edu.cn/rinc/Soinn.html">SOINN</a>)<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Shen F, Hasegawa O. An incremental network for on-line unsupervised classification and topology learning[J]. Neural Networks, 2006, 19 (1) :90–106. [[doi:10.1016/j.neunet.2005.04.006\]](http://dx.doi.org/10.1016/j.neunet.2005.04.006)
+">[1]</span></a></sup>、<strong>情景记忆马尔可规决策过程</strong>(<a target="_blank" rel="noopener" href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFDLAST2015&filename=1015572048.nh&uniplatform=NZKPT&v=g8C05oKV3JGiAK2N666FSFqzwyd_UkYomE96OV4kHsGr4R8XbWpFZ-aeNg1e3UUS">EM-MDP</a>)<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="刘冬. 基于情景记忆的机器人认知行为学习与控制方法[D].大连理工大学,2014.
+">[2]</span></a></sup>、<strong>增量式分级判别回归树</strong>(<a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/4118285">IHDR</a>)<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Weng J and Hwang W. Incremental Hierarchical Discriminant Regression[J]. *IEEE Transactions on Neural Networks*, 2007, 18(2): 397-415, [[doi: 10.1109/TNN.2006.889942]](https://doi.org/10.1109/TNN.2006.889942)  ">[3]</span></a></sup>。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2022/06/05/%E5%A2%9E%E9%87%8F%E5%BC%8F%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D/#more" rel="contents">
